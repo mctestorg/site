@@ -5,4 +5,6 @@
 layout: default
 ---
 
-{{content}}
+# Matter Center 365 Help desk
+
+To get started with help sections, click on link in the left side menu.
