@@ -7,7 +7,7 @@ Prerequisites:
 
 1. Client tenant has been added to Reseller Portal and assigned a number of licenses by reseller.
 2. Reseller has added tenant admin account as user who can manage user licenses within a Office 365 tenant.
-3. Granted admin consent for Matter Center 365 (see [Onboarding](/pages/onboarding)).
+3. Granted admin consent for Matter Center 365 (see [Onboarding]({{"/pages/onboarding" | relative_url }})).
 
 ## Assigning licenses to Office 365 users
 
@@ -17,12 +17,12 @@ In order to assign licenses to Office 365 users follow the following steps:
 2. Login with user that was registered as admin by reseler.
 3. Open settings in top right menu section of the page.
 
-![](/images/screenshots/mctopbar.PNG)
+![]({{"/images/screenshots/mctopbar.PNG" | relative_url }})
 
 4. Click `Add license` button and select and add users.
 
-![](/images/screenshots/mcaddnewlicense.PNG)
+![]({{"/images/screenshots/mcaddnewlicense.PNG" | relative_url }})
 
 5. Toggle `license enabled` field for required users.
 
-![](/images/screenshots/MClicenses.PNG)
+![]({{"/images/screenshots/MClicenses.PNG" | relative_url }})

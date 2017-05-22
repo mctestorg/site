@@ -9,11 +9,11 @@ Prerequisites:
 
 ## Granting consent
 
-Matter Center 365 was built as application that extends Office 365 functionalities and enables users greater productivity. To enable this Matter Center 365 requires permissions to access clients Office 365 data in user delegated mode (application behaves as a user, each action is user triggered). In order for users of Matter Center 365 to grant permissions, Office 365 Tenant administrator must grant consent to Matter Center 365 application by visiting [Consent link](https://hidden) and granting permissions.
+Matter Center 365 was built as application that extends Office 365 functionalities and enables users greater productivity. To enable this Matter Center 365 requires permissions to access clients Office 365 data in user delegated mode (application behaves as a user, each action is user triggered). In order for users of Matter Center 365 to grant permissions, Office 365 Tenant administrator must grant consent to Matter Center 365 application by visiting [Consent link](https://hiddne) and granting permissions.
 
 After logging in, the admin is prompted with following dialog containing list of all permissions required by Matter Center 365. By accepting this request admin authorizes Matter Center 365 application for all users in his tenant.
 
-![](/images/screenshots/PermissionGrant.PNG)
+![]({{"/images/screenshots/PermissionGrant.PNG" | relative_url }})
 
 
 ## Provisioning Add-ins
@@ -29,8 +29,8 @@ Office 365 will take some time to provision add-ins to users. This means that ad
 1. Open Office 365 Admin panel. Expand Admin centers menu on the bottom and click `Exchange`.
 2. Under `organization` open `add-ins`
 3. Click `+` icon and choose either Add from url or Add from file.
-    1. In case of url copy following url: [Manifest Url](/manifest/OutlookAddIn.xml)
-    2. In case of file, upload the following file: [Manifest File](/manifest/OutlookAddIn.xml)
+    1. In case of url copy following url: [Manifest Url]({{"/manifest/OutlookAddIn.xml" | relative_url }})
+    2. In case of file, upload the following file: [Manifest File]({{""/manifest/OutlookAddIn.xml" | relative_url }})
 4. Double click on Matter Center 365 on the add-in list.
     1. Check `Make this add-in available to users in your organizationIf `
     2. Select `Optional, enabled by default`
@@ -40,10 +40,10 @@ Office 365 will take some time to provision add-ins to users. This means that ad
 
 1. Open Office 365 Admin panel. Expand Settings menu and click on `Services & add-ins` link.
 2. Click `+ Upload Add-in`
-    1. In case of url copy following url: [Manifest Url](/manifest/OutlookAddIn.xml)
-    2. In case of file, upload the following file: [Manifest File](/manifest/OutlookAddIn.xml)
+    1. In case of url copy following url: [Manifest Url]({{"/manifest/OutlookAddIn.xml" | relative_url }})
+    2. In case of file, upload the following file: [Manifest File]({{"/manifest/OutlookAddIn.xml" | relative_url }})
 3. Side menu should open with add-in configuration:
     1. Set status to On
     2. Define who can access the addin. Under Who has access? either select Everyone or define groups for whom do you wish to enable the Office add-in.
 
-![](/images/screenshots/OfficeAddinConfiguration.PNG)
+![]({{"/images/screenshots/OfficeAddinConfiguration.PNG" | relative_url }})
